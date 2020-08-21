@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1A342024ED435000DEE819 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1A341F24ED435000DEE819 /* TasksTableViewController.swift */; };
+		DD1C53A624ECF6F00044F65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C53A524ECF6F00044F65A /* AppDelegate.swift */; };
+		DD1C53A824ECF6F00044F65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C53A724ECF6F00044F65A /* SceneDelegate.swift */; };
+		DD1C53AA24ECF6F00044F65A /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C53A924ECF6F00044F65A /* AddTaskViewController.swift */; };
+		DD1C53AD24ECF6F00044F65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C53AB24ECF6F00044F65A /* Main.storyboard */; };
+		DD1C53B024ECF6F00044F65A /* PyLoungeTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD1C53AE24ECF6F00044F65A /* PyLoungeTask.xcdatamodeld */; };
+		DD1C53B224ECF6F50044F65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1C53B124ECF6F50044F65A /* Assets.xcassets */; };
+		DD1C53B524ECF6F50044F65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C53B324ECF6F50044F65A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD1A341F24ED435000DEE819 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		DD1C53A224ECF6F00044F65A /* PyLoungeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyLoungeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1C53A524ECF6F00044F65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD1C53A724ECF6F00044F65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD1C53A924ECF6F00044F65A /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		DD1C53AC24ECF6F00044F65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD1C53AF24ECF6F00044F65A /* PyLoungeTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PyLoungeTask.xcdatamodel; sourceTree = "<group>"; };
+		DD1C53B124ECF6F50044F65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD1C53B424ECF6F50044F65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD1C53B624ECF6F50044F65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1C539F24ECF6F00044F65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1C539924ECF6F00044F65A = {
+			isa = PBXGroup;
+			children = (
+				DD1C53A424ECF6F00044F65A /* PyLoungeTask */,
+				DD1C53A324ECF6F00044F65A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1C53A324ECF6F00044F65A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C53A224ECF6F00044F65A /* PyLoungeTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1C53A424ECF6F00044F65A /* PyLoungeTask */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C53A524ECF6F00044F65A /* AppDelegate.swift */,
+				DD1C53A724ECF6F00044F65A /* SceneDelegate.swift */,
+				DD1C53A924ECF6F00044F65A /* AddTaskViewController.swift */,
+				DD1A341F24ED435000DEE819 /* TasksTableViewController.swift */,
+				DD1C53AB24ECF6F00044F65A /* Main.storyboard */,
+				DD1C53B124ECF6F50044F65A /* Assets.xcassets */,
+				DD1C53B324ECF6F50044F65A /* LaunchScreen.storyboard */,
+				DD1C53B624ECF6F50044F65A /* Info.plist */,
+				DD1C53AE24ECF6F00044F65A /* PyLoungeTask.xcdatamodeld */,
+			);
+			path = PyLoungeTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1C53A124ECF6F00044F65A /* PyLoungeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1C53B924ECF6F50044F65A /* Build configuration list for PBXNativeTarget "PyLoungeTask" */;
+			buildPhases = (
+				DD1C539E24ECF6F00044F65A /* Sources */,
+				DD1C539F24ECF6F00044F65A /* Frameworks */,
+				DD1C53A024ECF6F00044F65A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyLoungeTask;
+			productName = PyLoungeTask;
+			productReference = DD1C53A224ECF6F00044F65A /* PyLoungeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1C539A24ECF6F00044F65A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = pylounge;
+				TargetAttributes = {
+					DD1C53A124ECF6F00044F65A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DD1C539D24ECF6F00044F65A /* Build configuration list for PBXProject "PyLoungeTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD1C539924ECF6F00044F65A;
+			productRefGroup = DD1C53A324ECF6F00044F65A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1C53A124ECF6F00044F65A /* PyLoungeTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1C53A024ECF6F00044F65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C53B524ECF6F50044F65A /* LaunchScreen.storyboard in Resources */,
+				DD1C53B224ECF6F50044F65A /* Assets.xcassets in Resources */,
+				DD1C53AD24ECF6F00044F65A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1C539E24ECF6F00044F65A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C53AA24ECF6F00044F65A /* AddTaskViewController.swift in Sources */,
+				DD1A342024ED435000DEE819 /* TasksTableViewController.swift in Sources */,
+				DD1C53A624ECF6F00044F65A /* AppDelegate.swift in Sources */,
+				DD1C53A824ECF6F00044F65A /* SceneDelegate.swift in Sources */,
+				DD1C53B024ECF6F00044F65A /* PyLoungeTask.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD1C53AB24ECF6F00044F65A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1C53AC24ECF6F00044F65A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD1C53B324ECF6F50044F65A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1C53B424ECF6F50044F65A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1C53B724ECF6F50044F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD1C53B824ECF6F50044F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1C53BA24ECF6F50044F65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyLoungeTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pylounge.PyLoungeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD1C53BB24ECF6F50044F65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyLoungeTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pylounge.PyLoungeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1C539D24ECF6F00044F65A /* Build configuration list for PBXProject "PyLoungeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C53B724ECF6F50044F65A /* Debug */,
+				DD1C53B824ECF6F50044F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1C53B924ECF6F50044F65A /* Build configuration list for PBXNativeTarget "PyLoungeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C53BA24ECF6F50044F65A /* Debug */,
+				DD1C53BB24ECF6F50044F65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD1C53AE24ECF6F00044F65A /* PyLoungeTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD1C53AF24ECF6F00044F65A /* PyLoungeTask.xcdatamodel */,
+			);
+			currentVersion = DD1C53AF24ECF6F00044F65A /* PyLoungeTask.xcdatamodel */;
+			path = PyLoungeTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD1C539A24ECF6F00044F65A /* Project object */;
+}
